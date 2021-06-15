@@ -1,0 +1,8 @@
+Distribution Plots:
+distplot:	sns.distplot(tips['total_bill'],kde=False,bins=30)
+jointplot:	sns.jointplot(x='total_bill',y='tip',data=tips,kind='scatter')
+sns.jointplot(x='total_bill',y='tip',data=tips,kind='hex')
+sns.jointplot(x='total_bill',y='tip',data=tips,kind='reg')
+pairplot:	sns.pairplot(tips)
+rugplot:	
+kdeplot:	
